@@ -19,7 +19,7 @@ export default function Navbar() {
       navsidebar.classList.add("flex")
     }
   }
-  let toggleClassCheck = btnState ? ' active'+'hidden': '';
+  let toggleClassCheck = btnState ? ' active'+' hidden': '';
 
   return (
     <div className="flex flex-row justify-between align-middle w-3/4 
