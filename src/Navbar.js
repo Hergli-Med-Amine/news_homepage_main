@@ -37,11 +37,11 @@ export default function Navbar() {
         src={iconmenuclosed}
         onClick={handlemenubutton}
         />
-        <li className="text-gray-500"><a>Home</a></li>
-        <li className="text-gray-500"><a>New</a></li>
-        <li className="text-gray-500"><a>Popular</a></li>
-        <li className="text-gray-500"><a>Trending</a></li>
-        <li className="text-gray-500"><a>Categorie</a></li>
+        <li className="text-gray-500 hover:text-Softorange cursor-pointer transition-all ease-out"><a>Home</a></li>
+        <li className="text-gray-500 hover:text-Softorange cursor-pointer transition-all ease-out"><a>New</a></li>
+        <li className="text-gray-500 hover:text-Softorange cursor-pointer transition-all ease-out"><a>Popular</a></li>
+        <li className="text-gray-500 hover:text-Softorange cursor-pointer transition-all ease-out"><a>Trending</a></li>
+        <li className="text-gray-500 hover:text-Softorange cursor-pointer transition-all ease-out"><a>Categorie</a></li>
       </div>
       <img onClick={handlemenubutton} id="icon-image" className={`hover:cursor-pointer 
       laptop:hidden h-9 mt-10 w-14 items-center 

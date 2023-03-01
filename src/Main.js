@@ -21,7 +21,8 @@ export default function Main() {
                 to put the power of the platforms back into the hands 
                 of the people. But is it really fulfilling its promise? 
             </p>
-            <button className="bg-Softred text-white uppercase tracking-[0.25rem] w-1/2 p-3 font-medium">
+            <button className="bg-Softred text-white uppercase tracking-[0.25rem] w-1/2 p-3 font-medium
+            transition-all ease-out hover:bg-Verydark-blue cursor-pointer">
                Read more 
             </button>  
         </div>
@@ -30,21 +31,21 @@ export default function Main() {
             <h2 className="text-4xl text-Softorange font-bold">
                 New
             </h2>
-            <h3 className="text-white mt-7 text-xl font-bold">
+            <h3 className="text-white mt-7 text-xl font-bold transition-all ease-out hover:text-Softorange cursor-pointer">
                 Hydrogen VS Electric Cars
             </h3>
             <p className="text-slate-300 mt-2 text-base">
                 Will hydrogen-fueled cars ever catch up to EVs?
             </p>
             <hr className="border-slate-500 mt-8 mb-8"></hr>
-            <h3 className="text-white mt-6 font-bold text-xl">
+            <h3 className="text-white mt-6 font-bold text-xl transition-all ease-out hover:text-Softorange cursor-pointer">
             The Downsides of AI Artistry
             </h3>
             <p className="text-slate-300 mt-2 text-base">
                 What are the possible adverse effects of on-demand AI image generation?
             </p>
             <hr className="border-slate-500 mt-8 mb-8"></hr>
-            <h3 className="text-white mt-6 font-bold text-xl">
+            <h3 className="text-white mt-6 font-bold text-xl transition-all ease-out hover:text-Softorange cursor-pointer">
                 Is VC Funding Drying Up?
             </h3>
             <p className="text-slate-300 mt-2 text-base">
@@ -57,7 +58,8 @@ export default function Main() {
             </div>
             <div className="text-div flex flex-col justify-between">
             <p className="font-bold text-4xl text-Grayish-blue">01</p>
-            <h3 className="font-bold text-Verydark-blue text-lg">Reviving Retro PCs</h3>
+            <h3 className="font-bold text-Verydark-blue text-lg
+            transition-all ease-out hover:text-Softred cursor-pointer">Reviving Retro PCs</h3>
             <p className="text-Dark-grayishblue">What happens when old PCs are given modern upgrades?</p>
             </div>
         </div>
@@ -67,7 +69,8 @@ export default function Main() {
             </div>
             <div className="text-div flex flex-col justify-between">
                 <p className="font-bold text-4xl text-Grayish-blue">02</p>
-                <h3 className="font-bold text-Verydark-blue text-lg">  
+                <h3 className="font-bold text-Verydark-blue text-lg 
+                transition-all ease-out hover:text-Softred cursor-pointer">  
                     Top 10 Laptops of 2022
                 </h3>
                 <p className="text-Dark-grayishblue">
@@ -81,7 +84,8 @@ export default function Main() {
             </div>
             <div className="text-div flex flex-col justify-between">
                 <p className="font-bold text-4xl text-Grayish-blue">03</p>
-                <h3 className="font-bold text-Verydark-blue text-lg">
+                <h3 className="font-bold text-Verydark-blue text-lg
+                transition-all ease-out hover:text-Softred cursor-pointer">
                     The Growth of Gaming
                 </h3>
                 <p className="text-Dark-grayishblue">
